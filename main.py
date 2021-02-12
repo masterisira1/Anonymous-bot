@@ -16,12 +16,12 @@ client = TelegramClient('Telethon Anonymous Bot',
                     api_id = Credentials.API_ID,
                     api_hash=Credentials.API_HASH).start(bot_token=Credentials.BOT_TOKEN)
 
-DEFAULT_START = ("Hi, I am ANONYMOUS SENDER BOT.\n\n"
+DEFAULT_START = ("Hi, I am ANONYMOUS FILE SENDER BOT.\n\n"
                  "Just Forward me Some messages or\n"
                  "media and I will Anonymize the\n"
                  "sender.\n\n"
-                 "Please Support The Developer\n"
-                 "By Joining the Support Channel👇👇")
+                 "MY Developer is [IsiraPiumAth](t.me/IsiRAPiumaTH) & Support him \n"
+                 "By Joining the Support Group & Channel👇👇")
 
 
 if Credentials.START_MESSAGE is not None:
