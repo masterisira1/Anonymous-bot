@@ -16,7 +16,7 @@ client = TelegramClient('Telethon Anonymous Bot',
                     api_id = Credentials.API_ID,
                     api_hash=Credentials.API_HASH).start(bot_token=Credentials.BOT_TOKEN)
 
-DEFAULT_START = ("Hi, I am ANONYMOUS FILE SENDER BOT.\n\n"
+DEFAULT_START = ("Hi, I am [ANONYMOUS FILE SENDER BOT](https://telegra.ph/file/e4888d7e2d90d7d4e70da.png).\n\n"
                  "Just Forward me Some messages or\n"
                  "media and I will Anonymize the\n"
                  "sender.\n\n"
