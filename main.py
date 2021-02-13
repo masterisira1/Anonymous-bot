@@ -16,11 +16,11 @@ client = TelegramClient('Telethon Anonymous Bot',
                     api_id = Credentials.API_ID,
                     api_hash=Credentials.API_HASH).start(bot_token=Credentials.BOT_TOKEN)
 
-DEFAULT_START = ("Hi, I am [ANONYMOUS FILE SENDER BOT](https://telegra.ph/file/e4888d7e2d90d7d4e70da.png).\n\n"
+DEFAULT_START = ("Hi, I am [ANONYMOUS FILE SENDER BOT](https://telegra.ph/file/96234628c17edde4c618f.png).\n\n"
                  "Just Forward me Some messages or\n"
                  "media and I will Anonymize the\n"
                  "sender.\n\n"
-                 "MY Developer is [IsiraPiumAth](t.me/IsiRAPiumaTH) & Support him \n"
+                 "MY Developer is [Atharva H](t.me/atharvanh) & Support him \n"
                  "By Joining the Support Group & Channel👇👇")
 
 
@@ -36,10 +36,9 @@ async def startmessage(event):
       ok = event.chat_id
       await client.send_message(event.chat_id,
                                 message=START_TEXT,
-                                buttons=[[Button.url("🤖Deploy a clone🤖","https://heroku.com/deploy?template=https://github.com/masterisira/Anonymous-bot")],
-                                         [Button.url("🔰⭕️Support Channel⭕️🔰","https://t.me/slpcgames")],
-                                         [Button.url("💠Support Group💠","https://t.me/slpcgame")],
-                                         [Button.url("💖Contact Developer💝","https://t.me/IsiRAPiumaTH")]])                                                                 
+                                buttons=[[Button.url("🤖Deploy a clone🤖","https://heroku.com/deploy?template=https://github.com/masterisira1/Anonymous-bot")],
+                                         [Button.url("💠Support Group💠","https://t.me/allgames3")],
+                                         [Button.url("💖Contact Developer💝","https://t.me/atharvanh")]])                                                                 
     if event.message.media:
       await client.send_message(event.chat_id,file=event.message.media)
     else:
